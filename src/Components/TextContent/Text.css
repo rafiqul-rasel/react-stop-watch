@@ -1,0 +1,18 @@
+.Dumy{
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+.dummIcon{
+	opacity: 0;
+	cursor: pointer;
+	
+}
+
+.dummyText:hover .dummIcon{
+	opacity: 1;
+	cursor: pointer;
+	transition: 1s all;
+}

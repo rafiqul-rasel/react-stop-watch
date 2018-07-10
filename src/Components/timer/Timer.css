@@ -1,0 +1,20 @@
+.timer{
+    height: 120px;
+    width: 120px;
+    margin: 30px;
+    border-radius: 50%;
+    font-size: 40px;
+
+}
+.red{ border: 10px solid red;}
+.blue{ border: 10px solid blue;}
+.green{ border: 10px solid green;}
+.textCenter{
+    margin-top: 20px;
+    display:block;
+}
+.timeincrease{
+    animation-duration: .1s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+}

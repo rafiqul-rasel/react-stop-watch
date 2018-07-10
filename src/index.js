@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import "font-awesome/css/font-awesome.min.css";
+import registerServiceWorker from './registerServiceWorker';
+import "./animate.css";
+import  'bootstrap/dist/css/bootstrap.min.css';
+window.Jquery=require('jquery');
+window.Bootstrap=require("bootstrap/dist/js/bootstrap.min");
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
